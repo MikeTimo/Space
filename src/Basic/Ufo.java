@@ -43,6 +43,10 @@ public class Ufo extends BaseObject {
             fire();
     }
 
+    public Integer sum() {
+        return 0;
+    }
+
     /**
      * Стреляем.
      * Сбрасываем(создаем) одну бомбу прямо под собой.
