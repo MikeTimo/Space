@@ -1,9 +1,13 @@
 package Basic;
 
 public class Rocket extends BaseObject {
+    private double x;
+    private double y;
 
     public Rocket(double x, double y) {
         super(x, y, 1);
+        this.x = x;
+        this.y = y;
     }
 
     /**

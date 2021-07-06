@@ -10,6 +10,9 @@ public class Ufo extends BaseObject {
             {0, 0, 0, 0, 0},
     };
 
+    public double x;
+    public double y;
+
     public Ufo(double x, double y) {
         super(x, y, 3);
     }
